@@ -1,0 +1,28 @@
+// conditional background base on size//
+$tablet-width: 500px;
+$desktop-width: 801px;
+
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+
+// Tittle font//
+$font-base: 40px;
+
+@mixin sample {
+  font-size: $font-base;
+}
+
+header {
+  @include sample;
+}
+

@@ -1,0 +1,175 @@
+header {
+  font-size: 40px; }
+
+body {
+  background-color: black; }
+  @media (min-width: 500px) and (max-width: 800px) {
+    body {
+      background-color: #180875; } }
+  @media (min-width: 801px) {
+    body {
+      background-image: url("space.jpg"); } }
+
+/* when screen is smaller */
+@media screen and (max-width: 500px) {
+  .grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 8px; }
+
+  .grid-item {
+    border: 7px solid #73f1eb;
+    background-color: #050505; }
+
+  #beginning {
+    color: white; }
+
+  #beginning2 {
+    color: white; } }
+/* when screen is small */
+@media screen and (min-width: 501px) {
+  body {
+    background-color: black; }
+
+  .grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 8px; }
+
+  .grid-item {
+    background-color: lavenderblush;
+    border: 7px solid #f193fc;
+    font-size: 30px;
+    padding: 5px;
+    color: #0c0c0c;
+    text-align: justify !important; } }
+/* when screen is large */
+@media screen and (min-width: 801px) {
+  .grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 8px; }
+
+  .grid-item {
+    background-color: white;
+    border: 8px solid #7cece3;
+    font-size: 30px;
+    padding: 5px;
+    color: #0c0c0c;
+    text-align: justify !important; } }
+/* styles of header */
+header {
+  text-align: center;
+  color: white;
+  font-weight: bold; }
+
+#ucf {
+  width: 160px;
+  height: 160px;
+  transform: translate(5%, 30%); }
+
+/* first Grid  */
+#beginning {
+  font-size: 25px;
+  text-align: left;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+
+#beginning2 {
+  font-size: 20px;
+  text-align: left;
+  font-weight: bold; }
+
+#miami {
+  width: 30%;
+  transform: translate(20%, 5%); }
+
+#valencia {
+  width: 40%;
+  transform: translate(30%, -10%); }
+
+#arrow {
+  width: 13%;
+  transform: translate(70%, -50%); }
+
+#career {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center; }
+
+#major {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  text-align: center; }
+
+/* ending of first grid*/
+/*second grid*/
+#diplomas {
+  width: 30%;
+  border-radius: 8px;
+  transform: translate(25%, 2%); }
+
+#art {
+  width: 30%;
+  transform: translate(90%, -105%);
+  border-radius: 8px; }
+
+#science {
+  width: 30%;
+  transform: translate(-12%, 5%);
+  border-radius: 8px; }
+
+#associates {
+  font-size: 25px;
+  color: white; }
+
+#associates {
+  font-size: 25px;
+  text-align: center;
+  color: white; }
+
+/* ending of second grid*/
+/* Third Grid */
+#digital {
+  width: 30%;
+  transform: translate(30%, 5%); }
+
+#plus {
+  width: 10%;
+  transform: translate(145%, -10%); }
+
+#psychology {
+  width: 30%;
+  transform: translate(60%, 5%); }
+
+#career {
+  font-size: 24px;
+  color: white; }
+
+/* ending of third grid*/
+#campus {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center; }
+
+#ucfdowntown {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  text-align: center; }
+
+/* first grid images*/
+#main {
+  width: 100%; }
+
+#downtown {
+  width: 100%; }
+
+/*# sourceMappingURL=main.css.map */
+
+/*# sourceMappingURL=main.css.map */
